@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"module": "CommonJS",
+		"outDir": "out"
+	},
+	"exclude": ["node_modules"],
+	"ts-node": {
+		"compilerOptions": {
+			"allowSyntheticDefaultImports": true
+		}
+	}
+}

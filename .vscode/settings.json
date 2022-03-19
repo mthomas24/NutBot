@@ -1,0 +1,10 @@
+{
+	"javascript.format.semicolons": "insert",
+	"prettier.semi": true,
+	"prettier.singleQuote": false,
+	"editor.formatOnSave": false,
+	"editor.insertSpaces": false,
+	"prettier.printWidth": 90,
+	"prettier.arrowParens": "avoid",
+	"prettier.trailingComma": "none"
+}

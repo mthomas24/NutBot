@@ -1,0 +1,22 @@
+{
+	"help": "Information about the bot",
+	"8ball": "Ask anything you wish",
+	"squeanut": "The nuttiest card game",
+	"squeanut index": "A list of all the available nutty cards",
+	"play": "Plays a song in the current voice channel",
+	"nut": "Get your nuts out",
+	"purge": "Mass delete messages in a channel",
+	"rage": "For when you're at least mildly pissed off",
+	"apply": "Learn about applying to become a moderator for Nutty Cult",
+	"kick": "Kick someone from the cult",
+	"stats": "See your stats",
+	"shop": "Shop for somethin cool",
+	"setcoins": "Set how many coins someone has",
+	"queue": "See the music queue",
+	"pause": "Pause the music",
+	"skip": "Skip the current song or skip to a specific song",
+	"inventory": "See all the items you have",
+	"use": "Use an item and unleash its power",
+	"loop": "Toggles looping current song",
+	"settings": "Change bot options for this server"
+}
