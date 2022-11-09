@@ -3,6 +3,8 @@ import { UserModel } from "./models/User";
 import { readFileSync } from "fs";
 import { Card } from "./types";
 import { GuildModel } from "./models/Guild";
+import { getDoc, doc, collection } from "firebase/firestore"
+import { db } from "./firebase";
 
 // const shopItemIDs = shopItems.filter(i => !i.nonStorable).map(i => i.id);
 // let defaultInv = {};
@@ -49,6 +51,15 @@ export async function getUserData(id: string) {
 
   return u;
 }
+
+// export async function getUserDataFirestore(id: string) {
+// 	let result = await getDoc(doc(db, "users", id));
+// 	if (result.exists()) {
+// 		console.log(result.data());
+// 	} else {
+// 		console.log("User doesn't exist");
+// 	}
+// }
 
 export async function getGuildData(id: string) {
 	let g = await GuildModel.findOne({ guildID: id });

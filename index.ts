@@ -12,7 +12,7 @@ import shopItems from "./shopItems";
 // import { UserModel } from "./models/User";
 import { Command, GlobalData } from "./types";
 import { join } from "path";
-const RED = "db2509";
+
 
 const client = new Discord.Client({
   intents: [
@@ -72,7 +72,8 @@ client.on("ready", () => {
 
 client.on("interactionCreate", async interaction => {
   if (!interaction.isCommand()) return;
-  console.log(`${interaction.user.tag} ran /${interaction.commandName}`);
+	if (dev)
+		console.log(`${interaction.user.tag} ran /${interaction.commandName}`);
   const cmd = globalData.commands.get(interaction.commandName);
   if (!cmd)
     return await interaction.reply(

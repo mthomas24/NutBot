@@ -6,5 +6,9 @@
 	"editor.insertSpaces": false,
 	"prettier.printWidth": 90,
 	"prettier.arrowParens": "avoid",
-	"prettier.trailingComma": "none"
+	"prettier.trailingComma": "none",
+	"cSpell.enableFiletypes": [
+		"!json",
+		"!typescript"
+	]
 }
